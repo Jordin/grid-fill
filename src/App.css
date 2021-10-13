@@ -1,0 +1,27 @@
+.App-header {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.App p, .App table {
+  margin: 0.2em 0em;
+}
+
+.App input {
+  margin: 0em 0em;
+}
+
+.App label {
+  margin-left: 0.2em;
+  margin-right: 1em;
+}
+
+div#root {
+  margin: 0.3em 0.35em;
+}
+
+#root {
+  max-width: 60em;
+  margin: 2em auto;
+}

@@ -1,0 +1,38 @@
+:root {
+    --filled: #ff0000;
+    --background: #ffffff;
+    --hovered: #0000ff;
+}
+
+.App table {
+    position: absolute;
+}
+
+.App table, .App td {
+    border: 1px solid rgb(100, 100, 100);
+    border-collapse: collapse;
+}
+
+.App td {
+    flex-flow: row;
+    text-align: center;
+    height: 100%;
+    width: 2.2em;
+    height: 2.2em;
+}
+
+.App button {
+    margin-right: 0.4em;
+}
+
+.App .filled {
+    background-color: var(--filled, red);
+}
+
+.App .background {
+    background-color: var(--background, white);
+}
+
+.App .hovered {
+    background-color: var(--hovered, blue);
+}
